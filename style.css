@@ -1,0 +1,98 @@
+body{
+    
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    background-image: url(images/people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+
+}
+.paragrap-text{
+    color:white;
+    text-align: center;
+    padding: 0px 40px;
+    
+}
+.btn-color{
+    background-image: linear-gradient(red,yellow);
+    font-size: 24px;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    
+}
+.donate-maney{
+    text-align: center;
+    padding: 30px 40px;
+}
+.help-money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-money{
+    margin-left: 5px;
+    padding: 50px;
+    background-color: wheat;
+    border-radius: 10px;
+
+}
+#unique-color{
+    background-color: rgba(34, 63, 61, 0.897);
+    border: 3px solid aqua;
+    color: aqua;
+}
+.input-border{
+    text-align: center;
+   
+}
+.input-border input{
+    border: none;
+    width: 800px;
+    border-bottom: 2px solid red;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    
+}
+.Amount-section{
+    text-align: center;
+}
+.donate-text{
+    text-align: center;
+}
+
+.donate-plan{
+    display: flex;
+}
+.second-section{
+    width: 1200px;
+    margin: auto;
+}
+.plan{
+    background-color: aliceblue;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#first-plan{
+    background-color: aqua;
+}
+#second-plan{
+    background-color: rgba(179, 22, 179, 0.445);
+}
+#thired-plan{
+    background-color: salmon;
+}
