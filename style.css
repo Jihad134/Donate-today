@@ -60,6 +60,7 @@ body{
 }
 .input-border input{
     border: none;
+    outline: none;
     width: 800px;
     border-bottom: 2px solid red;
     text-align: center;
@@ -80,6 +81,7 @@ body{
 .second-section{
     width: 1200px;
     margin: auto;
+    padding: 40px 0px;
 }
 .plan{
     background-color: aliceblue;
@@ -88,11 +90,55 @@ body{
     border-radius: 5px;
 }
 #first-plan{
-    background-color: aqua;
+    background-color: rgba(163, 223, 223, 0.397);
 }
 #second-plan{
-    background-color: rgba(179, 22, 179, 0.445);
+    background-color: rgba(226, 164, 226, 0.329);
 }
 #thired-plan{
-    background-color: salmon;
+    background-color:rgba(53, 53, 41, 0.178);
+}
+main{
+    padding: 30px 0px;
+}
+.updates{
+    text-align: center;
+}
+.Subscribes{
+    background-color: antiquewhite;
+    display: flex;
+   justify-content: center;
+   width: 800px;
+   height: 300px;
+   margin: auto;
+   align-items: center;
+   border-radius: 10px;
+  
+}
+.subscriber-input{
+    padding-right: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.subscriber-button{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    margin-left: -7px;
+    border: none;
+    outline: none;
+}
+.footer{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+
+}
+.footer-orange{
+    color: orange;
+
+}
+.footer-white{
+color: white;
 }
